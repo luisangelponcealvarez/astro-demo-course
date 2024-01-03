@@ -1,28 +1,47 @@
 # Astro Starter Kit: Basics
-> projecto en constrocción
+
+This project is from midudev's astro course. [📖Course:](https://www.youtube.com/watch?v=RB5tR_nqUEw&t=2265s)
+
+Visit the site at [🛜Site](https://space-x-lauches.netlify.app/)
+
+> Project under construction
 
 ```sh
 npm create astro@latest -- --template basics
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+---
 
-## 🚀 Project Structure
+---
+
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fu!
+
+## 🚀 Project Structur
 
 Inside of your Astro project, you'll see the following folders and files:
 
 ```text
 /
-├── public/
+├──.vscode/
+├──public/
 │   └── favicon.svg
 ├── src/
 │   ├── components/
-│   │   └── Card.astro
+│   │   └── Header.astro
+│   |   └── HeaderButton.astro
+|   |   └── Launches.astro
 │   ├── layouts/
 │   │   └── Layout.astro
 │   └── pages/
-│       └── index.astro
-└── package.json
+│   │  └── index.astro
+│   └──env.d.ts
+|──.gitignore
+├──astro.config.mjs
+├──package-lock.json
+├──package.json
+|──README.md
+|──tailwind.config.mjs
+├──tsconfig.json
 ```
 
 Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
@@ -31,7 +50,7 @@ There's nothing special about `src/components/`, but that's where we like to put
 
 Any static assets, like images, can be placed in the `public/` directory.
 
-## 🧞 Commands
+## 🧞 Command
 
 All commands are run from the root of the project, from a terminal:
 
@@ -44,6 +63,6 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+## 👀 Want to learn more
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
